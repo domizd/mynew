@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+}
+.row:before,
+.row:after {
+	content:"";
+	display: table ;
+	clear: both;
+ }
+ [class*='col-'] {
+	float: left;
+	Min-height: 1px;
+	padding: 10px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-offset-0 {margin-left: 0;}
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+header {
+	background: #313234;
+	height: 50px;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+body {
+	margin: 0 auto;
+}
+header>nav>ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: right;
+}
+header li {
+	display: inline-block;
+}
+header>nav>ul>li>a {
+	line-height: 50px;
+	padding: 0 20px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+header>nav>img {
+	padding: 10px 0;
+}
+.jumbotron {
+	 background-image: url(http://cupcake.nilssonlee.se/wp-content/uploads/2014/09/IMG_3560-1200x800.jpg);
+	background-size: cover;
+	height: 500px;
+}
+.jumb1 {
+	background: rgba(0, 0, 0, 0.3);
+	float: right;
+	max-width: 800px;
+	margin: 10px 0;
+}
+.jumbotron h2{
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: 1px;
+	font-family: 'Raleway', sans-serif;
+}
+.benefits>.container {
+	margin: 50px auto;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	width: 700px;
+}
+.icon-btn {
+	display: inline-block;
+	padding: 10px;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	font-size: 50px;
+	text-align: center;
+	background: #313332;
+	color: white;
+	border-radius: 25%;
+	border: 2px;
+}
+.icon-btn:hover {
+	display: inline-block;
+	padding: 10px;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	font-size: 50px;
+	text-align: center;
+	background: #00c7e8;
+	color: white;
+	border-radius: 25%;
+}
+.icon-btn:hover, .ben>h3:hover {
+ 	transition: ease-in-out .3s;
+}
+.ben>h3 {
+	text-transform: uppercase;
+}
+.ben>h3:hover {
+	text-transform: uppercase;
+	color: #00c7e8;
+}
+.ben>p {
+	color: grey;
+}
+.featuerd>.container {
+	margin: 50px auto;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	width: 700px;
+}
+.feat>h1{
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.one {
+	  background-image: url(http://cupcake.nilssonlee.se/wp-content/uploads/2014/08/IMG_8263-1200x800.jpg);
+}
+.two {
+	background-image: url(http://cupcake.nilssonlee.se/wp-content/uploads/2015/12/IMG_8205-1200x800.jpg);
+}
+.three {
+	background-image: url(http://cupcake.nilssonlee.se/wp-content/uploads/2015/12/IMG_1896-1200x800.jpg);
+}
+.four {
+	background-image: url(http://cupcake.nilssonlee.se/wp-content/uploads/2015/12/IMG_4120-1200x800.jpg);
+}
+.five {
+	background-image: url(http://cupcake.nilssonlee.se/wp-content/uploads/2015/12/IMG_9955-1200x800.jpg);
+}
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover {
+	  background-size: cover; 
+	  opacity: 0.7;
+}
+.all-photos {
+	height: 300px;
+	border: solid white;
+	background-size: cover;
+}
+.people>.container {
+	margin: 50px auto;
+}
+.single-person {
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	font-weight: bold;
+	color: grey;
+	cursor: pointer;
+}
+.dexter>p {
+   	text-align: center;
+   	position: relative;
+   	color: white; 
+   	padding: 30px 30px;
+   	float: right;
+   	letter-spacing: 1px;
+   	text-transform: uppercase;
+}
+.dexter {
+	background-image: url(https://i.pinimg.com/originals/63/2a/14/632a1478e79fa0752ffb731aeae399b4.jpg);
+	background-size: cover;
+	border-radius: 50%;
+	display: inline-block;
+	height: 170px;
+	width: 140px;
+	margin: 50px auto;
+}
+.dexter:hover {
+	opacity: 0.4;
+}
+.people .dexter p {
+display: none;
+}
+
+.people   [class*='col-']:hover p {
+display: block;
+}
+.more {
+	background: rgba(110, 114, 129, 0.4);
+}
+.more>.container: {
+	margin: 50px auto;
+}
+.pic1 {
+	background-image: url(http://cupcake.nilssonlee.se/wp-content/uploads/2015/12/IMG_9955-1200x800.jpg);
+	background-size: cover;
+	height: 300px;
+	padding: 50px;
+	margin-top: 40px;
+}
+.more0, .more1 {
+	color: white;
+}
+.more1 {
+	font-family: 'Raleway', sans-serif;
+}
+.more0>h3 {
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 35px;
+}
+.numbers>.container {
+	margin: 50px auto;
+}
+.num {
+	font-family: 'Carter One', cursive;
+	text-align: center;
+	text-transform: uppercase;
+}
+.num>h1 {
+	font-size: 40px;
+}
+.num>p {
+	font-size: 12px;
+	color: lightblue;
+}
+.foot1 {
+	background: #313332;
+	height: 250px;
+}
+.foot1>h2 {
+	text-transform: uppercase;
+}
+.foot1>p {
+	font-size: 12px;
+	height: 50px;
+}
+.foot2 {
+	background: #252726;
+	text-align: center;
+	font-size: 10px;;
+}
+.footer {
+	color: white; 
+	font-family: 'Raleway', sans-serif;
+	line-height: 13px;
+	background: #252726;
+}
+.icon-btnf {
+	display: inline-block;
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	border-width: 0;
+	background-color: lightblue;
+	margin: auto;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+}
+.layer {
+	display: none;
+   	color: white;
+   	text-align: center;
+   	padding: 25px 25px;
+   	margin-left: 25px;
+   	margin-top: 120px;
+   	position: relative;
+}
+ .layer {
+ 	display: none;
+ }
+ [class*='col-']:hover .layer {
+ 	display: block;
+ }
